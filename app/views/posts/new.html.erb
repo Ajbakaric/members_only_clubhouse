@@ -1,0 +1,5 @@
+<%= form_with(model: @post, url: posts_path) do |form| %>
+    <%= form.text_area :content, placeholder: "Write your secret here..." %>
+    <%= form.submit "Submit" %>
+  <% end %>
+  
